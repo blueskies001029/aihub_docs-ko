@@ -8,140 +8,140 @@ order: 1000
 ***
 ###### ‎ 
 :::content-center
-## Requirements
+## 요구 사항
 
-##### ``Before proceeding, ensure you meet these requirements.``
+##### ``계속 진행하기 전에 다음 요구 사항을 충족하는지 확인하세요.``
 :::
 ###### ‎
-||| <u> REQUIREMENTS </u>
-- Model's <u>[**.PTH**](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u> file.        
-- Model's <u>[**.INDEX**](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u> file.      
-- General information about the model.
-- General information about its training process.      
-- A Hugging Face account.     
-- At least 1 audio sample of the model **<u>WITH NO MUSIC</u>**.     
+||| <u> 요구 사항 </u>
+- 모델의 <u>[**.PTH**](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u> 파일.        
+- 모델의 <u>[**.INDEX**](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u> 파일.      
+- 모델에 대한 일반적인 정보.
+- 학습 과정에 대한 일반적인 정보.     
+- 허깅페이스 계정   
+- 모델의 **<u>MR이 없는</u>** 오디오 샘플 1개 이상.       
 |||
 :::
 
 
 :::content-center
 ###### ‎ 
-## Things to Avoid :icon-x:
-##### ``This will disqualify your post``
+##  피해야 할 사항 :icon-x:
+##### ``이 경우 게시물의 자격이 박탈될 수 있습니다.``
 :::
 ‎
 :   ‎
 :::
-#### :icon-chevron-right: It lacks the correct files.
-- The .ZIP file must contain both the **correct** `.INDEX` & `.PTH` file. Learn about them <u>[here](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u>.
+#### :icon-chevron-right: 파일이 올바르지 않음
+- .ZIP 파일은 **올바른** `.INDEX` & `.PTH` 파일을 전부 포함해야 합니다. 자세한 사항은 <u>[여기](https://docs.aihub.wtf/essentials/voice-models/#voice-model-files)</u> 에서 확인하세요.
 ***
 ###### ‎ 
-#### :icon-chevron-right: Model is low quality.
-- <u>**A bad model sounds:**</u>       
+#### :icon-chevron-right: 모델 품질이 낮음.
+- <u>**나쁜 모델은 이렇습니다:**</u>       
 
-   - Scratchy/screechy.
-   - Muffled.
-   - Inaccurate to the source.
-   - Incapable of hitting certain notes.
-   - With slurred speech.
-   - Unable of pronouncing words correctly in its intended language.
-   - With <u>[artifacting](https://docs.aihub.wtf/rvc/resources/artifacting/)</u>.
+   - 긁힘/삐걱거림.
+   - 막힌 듯한 소리.
+   - 원본과 닮지 않음.
+   - 특정 음을 도달할 수 없음.
+   - 어눌한 말투.
+   - 의도한 언어로 단어를 올바르게 발음할 수 없음.
+   - <u>[아티팩트](https://docs.aihub.wtf/rvc/resources/artifacting/)</u> 가 있음.
 ***
 ###### ‎ 
-#### :icon-chevron-right: An outdated extraction method was used.
+#### :icon-chevron-right: 구형 추출 방법이 사용됨.
 {.list-icon}
-- :icon-check-circle: Only **Mangio-Crepe** & **RMVPE** are allowed. Learn about them <u>[here](https://docs.aihub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
+- :icon-check-circle: 오직 **Mangio-Crepe** 또는 **RMVPE** 만 허용됩니다. 자세한 내용은 <u>[여기](https://docs.aihub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
 
-- :icon-x-circle: Harvest, Dio, Crepe-Tiny, PM, etc. are obsolete.
+- :icon-x-circle: Harvest, Dio, Crepe-Tiny, PM, etc. 은 사용되지 않습니다.
 
 ***
 ###### ‎ 
-#### :icon-chevron-right: The audio demo has an instrumental.
-- Don't include **ANY** music on the audio demo, even if it's not copyrighted. This is due to:
+#### :icon-chevron-right: 오디오 샘플에 MR이 존재함
+- 저작권이 없는 음악이라도 오디오 데모에 **어떤** 음악도 포함하지 마세요. 그 이유는 다음과 같습니다:
   
-     - Concerns over copyright.
-     - In many cases, the music can "hide" the flaws of the voice models, making it harder to judge the quality of the model.
+     - 저작권에 대한 우려.
+     - 많은 경우 음악이 음성 모델의 결함을 "숨겨서" 모델의 품질을 판단하기 어렵게 만들 수 있습니다.
 ***
-#### :icon-chevron-right: The audio demo is altered.
-- Don't add reverb, equalize, or alter the demo in any way, as that won't be a faithful representation of the model. It must be the raw, unmodified output from RVC.
+#### :icon-chevron-right: 오디오 데모가 수정됨.
+- 데모에 리버브를 추가하거나 EQ를 적용하거나 어떤 식으로든 변경하면 모델을 충실하게 표현할 수 없으므로 데모를 변경하지 마세요. RVC의 수정되지 않은 원본 출력이어야 합니다.
 
-- Trimming silences at the beginning/end of the audio is valid. :icon-check-circle: 
+- 오디오의 시작/끝 부분의 무음 자르기는 유효합니다. :icon-check-circle: 
 ###### ‎  
 ***
 ###### ‎
 :::content-center
-## Steps
+## 단계
 ‎
 :   ‎
 :::
-#### Step 1: Zip the model.
-- Gather the **.PTH** & **.INDEX** file and <u>[zip</u>](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) them into a ``.ZIP`` file.
+#### Step 1: 모델 압축
+- **.PTH** 와 **.INDEX** 파일을 합쳐 ``.ZIP`` 파일로 <u>[압축</u>](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) 합니다..
          
-- It must be a **.ZIP** file, not .7ZIP or .RAR.
+- .7ZIP이나 .RAR 이 아닌 **.ZIP** 파일이어야 합니다.
 ***
 ###### ‎
-#### Step 2: Upload it.
-- The ZIP must be stored in Hugging Face in a **public** repo of `openrail` license.    
+#### Step 2: 업로드
+- ZIP 파일은 허깅페이스의 `openrail` 라이선스의 **public** 리포지토리에 저장해야 합니다.     
 
-- Learn how <u>[here</u>](https://docs.aihub.wtf/essentials/voice-models/#uploading-to-hugging-face).
+- <u>[여기</u>](https://docs.aihub.wtf/essentials/voice-models/#uploading-to-hugging-face) 에서 방법을 알아보십시오.
 ***
 ###### ‎
-#### Step 3: Prepare the submission.
-- Once your model is ready, head over to the **#get-model-maker** channel.  
+#### Step 3: 제출물 준비
+- 모델이 준비되면 **#get-model-maker** 채널로 이동합니다.  
 
-- Type the `/submit` command of **QCBot** and click the command.       
+- QCBot**의 `/submit` 명령을 입력한 후 명령을 클릭합니다.      
 
 <img src="../modelmaker-img/submit.png" alt="image" width="600" height="auto">‎               
 ‎     
 :::content-center
-#### ``Now fill up the information about your model:``  
+#### ``이제 모델에 대한 정보를 입력하세요.:``  
 :::
 
 **modelname**
-:     Its name.   
+:     모델의 이름입니다.   
 
 **rvc**
-:     Version of RVC it was trained on (will almost always be v2).
+:     학습된 RVC 버전(거의 항상 v2입니다).
 
 **extraction**
-:     The <u>[extraction method](https://docs.aihub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
+:     사용된 <u>[추출 방식](https://docs.aihub.wtf/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> 입니다.
 
 **epochs**
-:     Total <u>[epochs](https://docs.aihub.wtf/rvc/resources/epochs--tensorboard/)</u> amount.
+:     총 <u>[에포크](https://docs.aihub.wtf/rvc/resources/epochs--tensorboard/)</u> 양입니다.
 
 **link**
-:     Its download link from Hugging Face.
+:     모델의 허깅 페이스의 다운로드 링크입니다.
 
 **image**
-:     Image of what it represents (person/character).   
+:     모델을 나타내는 이미지(사람/캐릭터)를 입력합니다.     
 
 **demo**
-:     Audio sample of it talking/singing.
+:     말하거나 노래하는 오디오 샘플.
 
 **note** 
-:   Optional. Add more context about the model if you want.
+:   선택 사항입니다. 원하는 경우 모델에 대한 더 많은 설명을 추가합니다.
 
 ***
 !!!success 
-You can attach more samples when you repost the model to ``#voice-models``.
+``#voice-models``에 모델을 다시 게시할 때 더 많은 샘플을 첨부할 수 있습니다.
 !!!
 ***
 ###### ‎
-#### Step 4: Send submission.
-- Once you are done filling the information, send the message.    
+#### Step 4: 제출물 보내기
+- 정보 입력이 완료되면 메시지를 보냅니다.       
 
-- If everything went fine, your submission will be added to the queue & the bot will send a confirmation message, containing your **submission ID**.    
-<u>**With the ID you can:**</u>        
-   - Check your submission's number in queue with the command ``/queue`` followed by the ID. (e.g ``/queue 251``).        
-   - Cancel your submission with the command ``/cancel`` followed by the ID.    
+- 모든 것이 정상적으로 진행되면 제출물이 대기열에 추가되고 봇이 **submission ID**가 포함된 확인 메시지를 보냅니다.     
+<u>**ID가 있으면:**</u>        
+   - 대기열에 있는 제출물의 순서를 확인하려면 ``/queue`` 명령 뒤에 ID를 입력합니다. (예: ``/queue 251``).        
+   - ``/cancel`` 명령 뒤에 ID를 입력해 제출을 취소합니다.    
 ‎     
-- Now wait for a **Model QC** (quality checker) to verify your model. You'll be notified once it has been reviewed.   
+- 이제 **Model QC**(품질 검사자)가 모델을 확인할 때까지 기다리세요. 검토가 완료되면 알림을 받게 됩니다.    
 
-- If your model gets approved, the bot will notify you with something like this:    
+- 모델이 승인되면 봇이 다음과 같은 내용으로 알려줍니다:  
 
    <img src="../modelmaker-img/approved.png" alt="image" width="" height="auto">‎     
 ‎    
-- You can then repost the model (& future models) to the ``#voice-models`` forum.
+- 그런 다음 해당 모델(및 향후 모델)을 ``#voice-models`` 포럼에 다시 게시할 수 있습니다.
 
 ***
 ###### ‎
